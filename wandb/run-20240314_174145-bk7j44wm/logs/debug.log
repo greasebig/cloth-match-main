@@ -1,0 +1,27 @@
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Configure stats pid to 175834
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Loading settings from /home/lujunda/.config/wandb/settings
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Loading settings from /data/lujunda/baidu/duomo/data/leftdata/clipscore/cloth-matvh/wandb/settings
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'code/resnet-cloth.py', 'program_abspath': '/data/lujunda/baidu/duomo/data/leftdata/clipscore/cloth-matvh/code/resnet-cloth.py', 'program': '/data/lujunda/baidu/duomo/data/leftdata/clipscore/cloth-matvh/code/resnet-cloth.py'}
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_init.py:_log_setup():526] Logging user logs to /data/lujunda/baidu/duomo/data/leftdata/clipscore/cloth-matvh/wandb/run-20240314_174145-bk7j44wm/logs/debug.log
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_init.py:_log_setup():527] Logging internal logs to /data/lujunda/baidu/duomo/data/leftdata/clipscore/cloth-matvh/wandb/run-20240314_174145-bk7j44wm/logs/debug-internal.log
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_init.py:init():566] calling init triggers
+2024-03-14 17:41:45,281 INFO    MainThread:175834 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {}
+2024-03-14 17:41:45,282 INFO    MainThread:175834 [wandb_init.py:init():616] starting backend
+2024-03-14 17:41:45,282 INFO    MainThread:175834 [wandb_init.py:init():620] setting up manager
+2024-03-14 17:41:45,285 INFO    MainThread:175834 [backend.py:_multiprocessing_setup():107] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-14 17:41:45,286 INFO    MainThread:175834 [wandb_init.py:init():628] backend started and connected
+2024-03-14 17:41:45,292 INFO    MainThread:175834 [wandb_init.py:init():720] updated telemetry
+2024-03-14 17:41:45,293 INFO    MainThread:175834 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-14 17:41:45,899 ERROR   MainThread:175834 [wandb_init.py:init():779] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-03-14 17:41:47,908 ERROR   MainThread:175834 [wandb_init.py:init():1194] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/lujunda/.conda/envs/myyolov5/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+  File "/home/lujunda/.conda/envs/myyolov5/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-03-14 17:41:50,902 WARNING MsgRouterThr:175834 [router.py:message_loop():77] message_loop has been closed
